@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-gray-400);
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Ensure app fills the entire viewport */
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Full-width navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #0077b6;
+  color: white;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Full-width home section */
+.home {
+  flex: 1;
+  padding: 60px 20px;
+  width: 100%;
+}
+
+/* Make chatbox-container take full width on screen */
+.chatbox-container {
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
